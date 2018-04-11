@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Template maker_signin</title>
+        <link rel="stylesheet" href="css/loginstyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- font awesome -->
+        <link rel="stylesheet" href="CSS/offline.css"> <!-- any icon -->
+
+    </head>
+    <body >
+        <center>
+           <a class="iconh" href="index.html"><i class="material-icons" style="font-size:46px">home</i></a>
+           <p class="headsignin">Create New account</p>
+           <form class="signin">
+               <label class="firstnamelabel">First Name</label>
+               <label class="lastnamelabel">Last Name</label>
+               <input type="text" name="firstname" class="firstnamebox" required>
+               <input type="text" name="lastname" class="lastnamebox">
+               <label class="signinemail">Email</label>
+               <input type="email" name="email" class="signinemailbox" required>
+               <label class="signinusername">User Name</label>
+               <input type="text" name="username" class="usernamebox" required>
+               <div class="gender">
+                    <input type="radio" name="gander" required>
+               <label class="male">Male</label> 
+                    <input type="radio" name="gander" required>
+               <label class="female">Female</label></div>
+               <div class="signinpassword">
+                   <label>Password</label>
+                   <label class="label2">Confirm Password</label>  
+               </div>
+               <div class="signinpasswordbox">
+                    <input type="password" name="password" class="passbox1" required minlength=6 maxlength="12">
+                    <input type="password" name="confirmpassword" class="passbox2" required required minlength=6 maxlength="12">
+               </div>
+               <input type="checkbox" class="signincheckbox" required>
+                    <p class="signinp">I agree to the <a class="myBtn" id="myBtn">Terms of Service</a> and Privacy Policy.</p>
+               <input type="submit" value="Create account" class="Createaccountbutton"> 
+               <a class="aforget" href="login.html"><i class="fa fa-arrow-circle-left"></i>Back</a><!-- this line take the same class of back button in forget password page -->
+               
+            </form>        
+        </center>
+        <!-- The Modal -->
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Terms of Services</h2>
+        
+    </div>
+    <div class="modal-body">
+      <p>&emsp;&ensp;Our services are designed to allow people from all over the world to easily create a beautiful and engaging online presence for themselves, to manage and promote their businesses, content and ideas, and overall have a great experience doing so – even without being tech-savvy or design gurus. We provide our users with numerous tools and features for creating and publishing stunning websites, online stores, newsletters, galleries, media players, mobile apps and other applications – by utilizing their own content together with content and features offered by Wix and others via our services . </p>
+    
+    </div>
+    <div class="modal-footer">
+      
+    </div>
+  </div>
+
+</div>
+    
+        <script type="text/javascript" src="js/log.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- Trigger/Open The Modal -->
+
+
+
+
+
+
+
+
+
